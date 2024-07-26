@@ -15,7 +15,7 @@ export type TReview = {
   rating: number
 }
 
-function ReviewCard({ name, text, date, id, rating }: TReview) {
+function ReviewCard({ name, text, date, rating }: TReview) {
   return (
     <Card sx={{ width: 1 }}>
       <CardHeader

@@ -23,7 +23,7 @@ function ReviewsFeed() {
     <List>
       {(isLoading ? Array.from(new Array(10)) : reviews).map((item, index) =>
         item ? (
-          <ListItem key={`${index + item.name}`}>
+          <ListItem key={`${index + item.id}`}>
             <ReviewCard
               id={item.id}
               name={item.name}
