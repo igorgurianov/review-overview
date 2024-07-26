@@ -9,7 +9,7 @@ function AnalyticsPage() {
         blanditiis.
       </p>
     </div>
-  );
+  )
 }
 
-export default AnalyticsPage;
+export default AnalyticsPage

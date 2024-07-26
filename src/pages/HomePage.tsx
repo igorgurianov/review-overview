@@ -1,5 +1,11 @@
+import { useEffect } from 'react'
+
 function HomePage() {
-  return <div>HomePage</div>;
+  useEffect(() => {
+    console.log('asdasdsa')
+  })
+
+  return <div>HomePage</div>
 }
 
-export default HomePage;
+export default HomePage
